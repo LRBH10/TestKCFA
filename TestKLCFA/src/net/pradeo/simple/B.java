@@ -1,8 +1,5 @@
-package net.pradeo.abc;
+package net.pradeo.simple;
 
-import net.pradeo.i.I;
-import net.pradeo.xyz.X;
-import net.pradeo.xyz.Y;
 
 public class B  extends A implements I{
  

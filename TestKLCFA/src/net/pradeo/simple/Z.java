@@ -1,7 +1,5 @@
-package net.pradeo.xyz;
+package net.pradeo.simple;
 
-import net.pradeo.abc.A;
-import net.pradeo.abc.C;
 
 public class Z extends Y {
 
