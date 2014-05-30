@@ -4,11 +4,33 @@ public class CPAtest {
   
   static boolean test = true;
   
-  public static class Animal{}
-  public static class Horse extends Animal{}
-  public static class Donkey extends Animal{}
-  public static class Tiger extends Animal{}
-  public static class Jaguar extends Animal{}
+  public static abstract class Animal{ 
+    public abstract void print();
+  }
+  public static class Horse extends Animal{
+    @Override
+    public void print() {
+       System.out.println("Horse");
+    }}
+  public static class Donkey extends Animal{
+
+    @Override
+    public void print() {
+      System.out.println("Donkey");
+      
+    }}
+  public static class Tiger extends Animal{
+
+    @Override
+    public void print() {
+      System.out.println("Tiger");      
+    }}
+  public static class Jaguar extends Animal{
+
+    @Override
+    public void print() {
+      System.out.println("Jaguar");
+    }}
   
   
 
@@ -22,8 +44,8 @@ public class CPAtest {
   }
   
   
-  public static void foo(Animal a1, Animal a2) {
-    Condition(a1,a2);
+  public static Animal foo(Animal a1, Animal a2) {
+    return Condition(a1,a2);
   }
   
   
