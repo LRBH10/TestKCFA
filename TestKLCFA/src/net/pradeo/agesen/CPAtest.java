@@ -36,7 +36,7 @@ public class CPAtest {
 
   public static Animal Condition(Animal a1, Animal a2){
     Animal ret = null;
-    if(test)
+    if(a1 instanceof Jaguar)
       ret = a1;
     else 
       ret = a2;
