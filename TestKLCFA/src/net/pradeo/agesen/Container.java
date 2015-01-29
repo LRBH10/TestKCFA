@@ -1,6 +1,6 @@
 package net.pradeo.agesen;
 
-import net.pradeo.agesen.CPAtest.Animal;
+import net.pradeo.agesen.Animal;
 
 public class Container {
 
