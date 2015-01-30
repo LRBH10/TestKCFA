@@ -11,7 +11,6 @@ public class C extends A {
 				a.bar(this, x);
 			else
 				this.bar(a, x);
-
 		}
 
 	}
