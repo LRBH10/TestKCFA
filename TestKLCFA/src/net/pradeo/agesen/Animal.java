@@ -8,7 +8,7 @@ public abstract class Animal {
 
   public static Animal Condition(Animal a1, Animal a2) {
     Animal ret = null;
-    if (a1 instanceof Jaguar)
+    if (a1 instanceof Tiger)
       ret = a1;
     else
       ret = a2;
@@ -20,6 +20,10 @@ public abstract class Animal {
     return Condition(a1, a2);
   }
 
+
+  public static Animal fooklcfa(Container c) {
+    return Condition(c.a1, c.a2);
+  }
 
 
 }

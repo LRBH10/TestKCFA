@@ -11,5 +11,7 @@ public class MainKCFA {
      A b = new B();
      c.bar(b, 5);
   }
+  
+   
 
 }
