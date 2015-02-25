@@ -1,4 +1,4 @@
-package net.pradeo.KCFATest;
+package net.pradeo.mains;
 
 import net.pradeo.agesen.Animal;
 import net.pradeo.agesen.Container;

@@ -1,4 +1,4 @@
-package net.pradeo.KCFATest;
+package net.pradeo.mains;
 
 import net.pradeo.klcfa.A1;
 import net.pradeo.klcfa.B1;
